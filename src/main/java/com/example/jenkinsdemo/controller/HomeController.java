@@ -13,7 +13,7 @@ public class HomeController {
     public ResponseModel getMessage(){
         ResponseModel model = new ResponseModel();
         model.setResponseCode("0");
-        model.setResponseMessage("Welcome to Jenkins Demo");
+        model.setResponseMessage("Welcome to Jenkins Demo cicd implemented successfully... Alhamdulillah..");
        return model;
 
     }
